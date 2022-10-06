@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-image: url("personal-website/header-bg.png");
+    height: 1000px;
+}
+.head>div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;   
+    padding: 2%;
+    
+}
+.hed-right img{
+    width: 70%;
+    
+}
+.head-btn{
+    text-decoration: none;
+    background-color:rgb(187, 17, 45);
+    color: white;
+    padding: 8px 7px;
+    border-radius: 4px;
+}
+/* Above area for header */
+.biography{
+    height: 1000px;
+    background-image: url("personal-website/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.biography>div{
+    /* float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%; */
+    width: 40%;
+    float: left;
+    margin-left: 5%;   
+    padding: 2%;
+
+}
+.bio-img{
+    width: 70%;
+}
+.bio-cv-btn{
+    text-decoration:none;
+    background-color: rgb(255, 0, 212);
+    padding: 18px 6px;
+    border-radius: 7px;
+    color: white;
+}
+.work img{
+    width: 300px;
+    height: auto;
+}
+.immg{
+    margin-left: 50px;
+}
+.work{
+    margin-bottom: 150px;
+    margin-left: 180px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-btn{
+    margin-left: 580px;
+    padding: 50px 120px;
+    background-color: rgb(190, 5, 150);
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 9px;
+}
